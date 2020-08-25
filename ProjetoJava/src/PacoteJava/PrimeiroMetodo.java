@@ -22,4 +22,11 @@ public class PrimeiroMetodo {
         
         System.out.println("Somando valor = "+resp);
     }
+    public static String imprimeTexto(String texto){
+        return texto;
+    }
+    
+    public static void imprimirTexto(String texto){
+        System.out.println("Texto impresso = "+texto);
+    }
 }

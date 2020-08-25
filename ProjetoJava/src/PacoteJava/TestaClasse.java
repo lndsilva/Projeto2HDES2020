@@ -13,6 +13,12 @@ public class TestaClasse {
         PrimeiroMetodo.somarValor();
         
         PrimeiroMetodo.somandoValor(31.50, 21.50);
+        
+        String resposta = PrimeiroMetodo.imprimeTexto("Etecia");
+        
+        System.out.println("O texto retornado = "+resposta);
+        
+        PrimeiroMetodo.imprimirTexto("Escola Técnica");
                
         
     }
